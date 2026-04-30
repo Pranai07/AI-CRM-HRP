@@ -1,43 +1,67 @@
-# AI CRM Chat Application
+# 🤖 AI CRM Chat Application
 
-This is a full-stack AI-powered CRM chat application.
+## 🚀 Overview
 
-## 🚀 Features
-- Chat interface built with React
-- AI-powered interaction processing
-- Sentiment analysis
-- Follow-up suggestions
-- Backend built with FastAPI
-- SQLite database integration
+This is a full-stack AI-powered CRM chat application that allows users to interact with an AI assistant to generate summaries, sentiment analysis, and follow-up suggestions.
+
+---
 
 ## 🛠 Tech Stack
-- Frontend: React.js
-- Backend: FastAPI (Python)
-- Database: SQLite
-- AI: Groq API
 
-## 📂 Project Structure
-- frontend/ → React app
-- backend/ → FastAPI backend
+* Frontend: React.js
+* Backend: FastAPI (Python)
+* Database: SQLite
+* Deployment: Render (Web Service + Static Site)
 
-## ⚙️ Setup
+---
+
+## ✨ Features
+
+* Real-time chat interface
+* AI-generated summary & sentiment analysis
+* Follow-up suggestions
+* Chat history storage
+* REST API integration
+
+---
+
+## 🔐 Environment Variables
+
+Create a `.env` file in backend:
+
+```
+GROQ_API_KEY=your_api_key_here
+```
+
+---
+
+## ▶️ Run Locally
 
 ### Backend
-```bash
+
+```
 cd backend
 pip install -r requirements.txt
 uvicorn main:app --reload
+```
 
 ### Frontend
+
+```
 cd frontend
 npm install
 npm start
+```
 
-🌐 Live Demo
+---
+
+## 🌐 Live Demo
 
 Frontend: https://your-frontend-url.onrender.com
 Backend: https://ai-crm-hrp.onrender.com
 
-👨‍💻 Author
+---
+
+## 👨‍💻 Author
 
 Pranai Sai
