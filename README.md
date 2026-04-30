@@ -27,3 +27,17 @@ This is a full-stack AI-powered CRM chat application.
 cd backend
 pip install -r requirements.txt
 uvicorn main:app --reload
+
+### Frontend
+cd frontend
+npm install
+npm start
+
+🌐 Live Demo
+
+Frontend: https://your-frontend-url.onrender.com
+Backend: https://ai-crm-hrp.onrender.com
+
+👨‍💻 Author
+
+Pranai Sai
