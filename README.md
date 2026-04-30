@@ -57,7 +57,7 @@ npm start
 
 ## 🌐 Live Demo
 
-Frontend: https://your-frontend-url.onrender.com
+Frontend: https://ai-crm-hrp-1.onrender.com/
 Backend: https://ai-crm-hrp.onrender.com
 
 ---
