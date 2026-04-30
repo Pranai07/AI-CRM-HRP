@@ -26,7 +26,7 @@ function App() {
     setLoading(true);
 
     try {
-      const res = await axios.post("http://127.0.0.1:8000/chat", {
+      const res = await axios.post("https://ai-crm-hrp.onrender.com/chat", {
         input_text: input
       });
 
@@ -54,7 +54,7 @@ Follow-up: ${data.follow_up}`
   // Fetch history
   const fetchHistory = async () => {
     try {
-      const res = await axios.get("http://127.0.0.1:8000/interactions");
+      const res = await axios.get("https://ai-crm-hrp.onrender.com/interactions");
       setHistory(res.data);
     } catch (err) {
       console.log("Error fetching history");

@@ -8,7 +8,7 @@ function Chat() {
   const sendMessage = async () => {
     const userMessage = { type: "user", text: input };
 
-    const res = await axios.post("http://127.0.0.1:8000/chat", {
+    const res = await axios.post("https://ai-crm-hrp.onrender.com/chat", {
       input_text: input,
     });
 
